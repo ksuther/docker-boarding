@@ -1,7 +1,7 @@
 FROM ruby:2.6-slim
 MAINTAINER Eric McNiece <emcniece@gmail.com>
 
-ENV CHECKOUT_ID=08e1e82ceea4efc46adf1dc595a31fe4e0e638e4
+ENV CHECKOUT_ID=ae369b053dff164d222658706d4cd1a60804c728
 
 RUN apt-get update -qq && apt-get install -y --no-install-recommends build-essential git \
     # for postgres
