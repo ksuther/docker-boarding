@@ -1,4 +1,4 @@
-FROM ruby:2.6-slim
+FROM ruby:2.7-slim
 MAINTAINER Eric McNiece <emcniece@gmail.com>
 
 ENV CHECKOUT_ID=ae369b053dff164d222658706d4cd1a60804c728
